@@ -1,7 +1,7 @@
-# cs-132-final-proj# Snakes and Ladders
+# Snakes and Ladders
 
 A console-based Snakes and Ladders game written in Python
-The board is randomly generated every round, supports 2–4 players (any mix of humans and computer-controlled players), and uses the [`rich`](https://github.com/Textualize/rich)library to render a colored ASCII board, banner, and leaderboard.
+The board is randomly generated every round, supports 2–4 players (any mix of humans and computer-controlled players), and uses the [`rich `]  (https://github.com/Textualize/rich)library to render a colored ASCII board, banner, and leaderboard.
 ---
 
 ## Features
@@ -102,12 +102,3 @@ The single source file is organized into clearly labeled sections:
 | Setup / main loop  | `setup_game`, `main`, replay handling                |
 
 ---
-
-## Notes
-
-- Snakes always go **down**, ladders always go **up**.
-- Snake heads, snake tails, ladder bottoms, and ladder tops never share
-  a square, and squares 1 and the final square are always plain.
-- Difficulty is implemented by changing the divisors used to derive
-  the number of snakes and ladders from the board size; see
-  `DIFFICULTY_RATIOS` in `snakes.py`.
